@@ -5,7 +5,7 @@
 
 <span id="sobre">
 
-### :mag_right: Sobre a Atividade II:
+### :mag_right: Sobre a Atividade III:
 <p>Atividade desenvolvida pela matéria Técnica de Programação I, com o objetivo do desenvolvimento utilizar a biblioteca react com componentes de classe,  com a necessidade de avaliar o 
 desenvolvimento com hooks </p>
 
