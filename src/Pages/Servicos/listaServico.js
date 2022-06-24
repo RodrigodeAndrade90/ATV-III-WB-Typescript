@@ -18,9 +18,20 @@ export default function ListaServico(props) {
                     <div className="collapsible-header ">Serviço 1</div>
                     <div className="collapsible-body">
                         <div className="col s12 z-depth-6 card-panel">
-                            <p><label>Nome do Serviço:</label></p>
-                            <p><label>Descrição:</label></p>
-                            <p><label>Tipo:</label></p>
+                            <p><label>Nome do Serviço:</label> Escova Progressiva</p>
+                            <p><label>Descrição:</label> Cabelo Feminino</p>
+                            <p><label>Quantidade:</label> 1</p>
+                        </div>
+
+                        <div className="row">
+                            <div className="col s6 center">
+                                <a class="btn waves-effect  pink accent-4" href="/atualizarServico">Atualizar</a>
+                            </div>
+
+                            <div className="col s6 center">
+                                <a class="btn waves-effect  pink accent-4" href="#">Excluir</a>
+
+                            </div>
                         </div>
                     </div>
                 </li>
@@ -33,6 +44,17 @@ export default function ListaServico(props) {
                             <p><label>Descrição:</label></p>
                             <p><label>Tipo:</label></p>
                         </div>
+
+                        <div className="row">
+                            <div className="col s6 center">
+                                <a class="btn waves-effect  pink accent-4" href="/atualizarServico">Atualizar</a>
+                            </div>
+
+                            <div className="col s6 center">
+                                <a class="btn waves-effect  pink accent-4" href="#">Excluir</a>
+
+                            </div>
+                        </div>
                     </div>
                 </li>
 
@@ -44,6 +66,17 @@ export default function ListaServico(props) {
                             <p><label>Descrição:</label></p>
                             <p><label>Tipo:</label></p>
                         </div>
+
+                        <div className="row">
+                            <div className="col s6 center">
+                                <a class="btn waves-effect  pink accent-4" href="/atualizarServico">Atualizar</a>
+                            </div>
+
+                            <div className="col s6 center">
+                                <a class="btn waves-effect  pink accent-4" href="#">Excluir</a>
+
+                            </div>
+                        </div>
                     </div>
                 </li>
 
@@ -54,6 +87,17 @@ export default function ListaServico(props) {
                             <p><label>Nome do Serviço:</label></p>
                             <p><label>Descrição:</label></p>
                             <p><label>Tipo:</label></p>
+                        </div>
+
+                        <div className="row">
+                            <div className="col s6 center">
+                                <a class="btn waves-effect  pink accent-4" href="/atualizarServico">Atualizar</a>
+                            </div>
+
+                            <div className="col s6 center">
+                                <a class="btn waves-effect  pink accent-4" href="#">Excluir</a>
+
+                            </div>
                         </div>
                     </div>
                 </li>

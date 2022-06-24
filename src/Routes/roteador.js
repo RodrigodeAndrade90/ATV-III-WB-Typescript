@@ -7,6 +7,9 @@ import ListaCliente from "../Pages/Cliente/listaCliente";
 import ListaProduto from "../Pages/Produtos/listaProduto";
 import ListaServico from "../Pages/Servicos/listaServico";
 import FormularioCadastro from "../Pages/Formulário/formularioCadastro";
+import AtualizarCliente from "../Pages/AtualizarCliente/atualizarCliente";
+import AtualizarProduto from "../Pages/AtualizarProduto/atualizarProduto";
+import AtualizarServico from "../Pages/AtualizarServico/atualizarServico";
 import Top from "../Pages/Top/top";
 
 
@@ -23,6 +26,9 @@ function Routes() {
                     <Route path="/servico" element={<ListaServico tema="purple lighten-4" />} />
                     <Route path="/cadastro" element={<FormularioCadastro tema="purple lighten-4" />} />
                     <Route path="/top10" element={<Top tema="purple lighten-4" />} />
+                    <Route path="/atualizarCliente" element={<AtualizarCliente tema="purple lighten-4" />} />
+                    <Route path="/atualizarProduto" element={<AtualizarProduto tema="purple lighten-4" />} />
+                    <Route path="/atualizarServico" element={<AtualizarServico tema="purple lighten-4" />} />
                   
                 </Switch>
             </BrowserRouter>
